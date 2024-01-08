@@ -26,22 +26,25 @@
     </style>
   </head>
   <body>
-    <header></header>
+    <div class="background"></div>
     <main>
       <section class="faq">
-        <div>
+        <header>
           <figure>
             <img src="assets/images/icon-star.svg" alt="star illustration" />
           </figure>
           <h1>FAQs</h1>
-        </div>
+        </header>
         <ul class="faq__container">
           <li class="faq__container_item">
             <div class="faq__container_item-click">
               <p>What is Frontend Mentor, and how will it help me?</p>
-              <div class="expand">-</div>
+              <div class="expand">
+                <div class="horizontal-line"></div>
+                <div class="vertical-line"></div>
+              </div>
             </div>
-            <p>
+            <p class="faq__container_item-collapse">
               Frontend Mentor offers realistic coding challenges to help
               developers improve their frontend coding skills with projects in
               HTML, CSS, and JavaScript. It's suitable for all levels and ideal
@@ -51,10 +54,13 @@
           <li class="faq__container_item">
             <div class="faq__container_item-click">
               <p>Is Frontend Mentor free?</p>
-              <div class="expand"></div>
+              <div class="expand">
+                <div class="horizontal-line"></div>
+                <div class="vertical-line"></div>
+              </div>
             </div>
 
-            <p>
+            <p class="faq__container_item-collapse">
               Yes, Frontend Mentor offers both free and premium coding
               challenges, with the free option providing access to a range of
               projects suitable for all skill levels.
@@ -63,10 +69,13 @@
           <li class="faq__container_item">
             <div class="faq__container_item-click">
               <p>Can I use Frontend Mentor projects in my portfolio?</p>
-              <div class="expand"></div>
+              <div class="expand">
+                <div class="horizontal-line"></div>
+                <div class="vertical-line"></div>
+              </div>
             </div>
 
-            <p>
+            <p class="faq__container_item-collapse">
               Yes, you can use projects completed on Frontend Mentor in your
               portfolio. It's an excellent way to showcase your skills to
               potential employers!
@@ -77,9 +86,12 @@
               <p>
                 How can I get help if I'm stuck on a Frontend Mentor challenge?
               </p>
-              <div class="expand"></div>
+              <div class="expand">
+                <div class="horizontal-line"></div>
+                <div class="vertical-line"></div>
+              </div>
             </div>
-            <p>
+            <p class="faq__container_item-collapse">
               The best place to get help is inside Frontend Mentor's Discord
               community. There's a help channel where you can ask questions and
               seek support from other community members.
@@ -98,5 +110,6 @@
         >Luis Colina</a
       >.
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
